@@ -22,6 +22,10 @@
 	- Mean Absolute Error (MAE)
 	- R squared (r2)
 
+### Other Features
+- Ability to see which specific features effects the regressor the most via a SHAP plot for the XGB
+- Ability to save and load models, which intially take very long to train and obtian statistics. This allows the user to only run it once, then save it to a .pkl file, which can then be reloaded. Since these files are > 25mb and cannot be uploaded to GitHub, they are not provided here, however can be provided individually on request.
+
 ### Results
 <img width="450" alt="image" src="https://github.com/user-attachments/assets/fb8e2fcd-7466-428c-bd7e-8ac4973c4ccc" />
 
